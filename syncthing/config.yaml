@@ -21,6 +21,7 @@ ports_description:
   8384/tcp: Web frontend (not needed with Ingress)
   22000/tcp: Sync protocol
   21027/udp: Discovery broadcast
+host_network: true
 ingress: true
 ingress_port: 8384
 panel_title: Syncthing
